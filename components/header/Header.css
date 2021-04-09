@@ -1,0 +1,26 @@
+/*
+CSS for the header component.
+
+naming convention: header-_____
+*/
+
+#header-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 10px dotted #ff351c;
+}
+
+.header-text {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 2em;
+  color: #ff351c;
+  white-space: nowrap;
+}
+
+.header-rectangle {
+  background-color: #fdbe02;
+  width: 100%;
+  height: 30px;
+  margin: 40px;
+}
